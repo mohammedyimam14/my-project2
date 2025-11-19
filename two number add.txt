@@ -7,9 +7,26 @@ int main() {
     std::cin >> num1; // Get first number from user
 
     std::cout << "Enter the second number: ";
-    std::cin >> num2; // Get second number from user
+    std::cin >> ;num2 // Get second number from user
 
-    sum = num1 + num2; // Calculate the sum
-    std::cout << "The sum of " << num1 << " and " << num2 << " is: " << sum << std::endl;
+    sum =  num1+ num2; // Calculate the sum
+    std::cout << "The sum of " <<  num1<< " and " <<  num2<< " is: " << sum << std::endl;
     return 0;
+
+}
+#include <iostream>
+
+int main() {
+    int x, y, sum;
+
+    std::cout << "Enter the first number: ";
+    std::cin >> x; // Get first number from user
+
+    std::cout << "Enter the second number: ";
+    std::cin >> y; // Get second number from user
+
+    sum = x + y; // Calculate the sum
+    std::cout << "The sum of " << x << " and " << y << " is: " << sum << std::endl;
+    return 0;
+
 }
